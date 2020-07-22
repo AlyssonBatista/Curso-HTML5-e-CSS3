@@ -1,0 +1,15 @@
+header{
+    background-color: #bbbbbb; /* Cor de fundo do cabeçalho  */
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px; /* em cima, direita, embaixo, esquerda*/
+}
+
+nav a {
+    text-transform: uppercase ; /* O texto tem visual de maiuscula*/
+    color: #000000;
+    font-weight: bold; /* A fonte do texto fica forte */
+    font-size: 22px;
+    text-decoration: none; /* O link fica sem decoração, ou sublinhado */
+}
