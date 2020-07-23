@@ -8,7 +8,7 @@ header{
     margin: auto;
 }
 nav li {
-    display: inline;
+    display: inline-block;
     margin: 0 0 0 15px; /* em cima, direita, embaixo, esquerda*/
 }
 
@@ -26,3 +26,30 @@ nav ul {
     right: 0;
 
 }
+.produtos {
+    width: 940px;
+    margin: 0 auto ;
+    padding: 50px 0;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-preco {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produtos-descricao {
+    font-size: 18px;
+ }
+
+ 
