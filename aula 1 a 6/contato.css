@@ -84,4 +84,27 @@ footer {
     padding: 40px 0;   
  }
 
- 
+ main {
+     width: 950px;
+     margin: 0 auto;
+ }
+
+ form {
+     margin: 40px 0;
+ }
+
+ form label{
+     display: block;
+     font-size: 20px;
+    margin: 0 0 10px; 
+}
+
+ form input{
+     display: block;
+     margin: 0 0 20px;
+     padding: 9px 25px;
+     width: 50%;
+ }
+ #botao {
+     width: 25%;
+ }
