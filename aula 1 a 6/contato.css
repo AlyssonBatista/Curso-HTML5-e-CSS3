@@ -106,7 +106,9 @@ footer {
      width: 50%;
  }
  #botao {
+     margin-top: 20px;
      width: 25%;
+     height: 30px;
  }
 
  #tel {
