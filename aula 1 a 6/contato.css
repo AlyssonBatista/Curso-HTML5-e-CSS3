@@ -93,7 +93,7 @@ footer {
      margin: 40px 0;
  }
 
- form label, form p{
+ form label, form legend{
      display: block;
      font-size: 20px;
     margin: 0 0 10px; 
@@ -107,8 +107,9 @@ footer {
  }
  #botao {
      margin-top: 20px;
-     width: 25%;
-     height: 30px;
+     align-items: center;
+      
+      
  }
 
  #tel {
@@ -120,3 +121,40 @@ footer {
  .checkbox {
      margin: 20px 0;
  }
+
+ .enviar{
+    width: 40%;
+    height: 40%;
+    padding: 15px 0;
+    background: orange;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1s  all;
+    cursor: pointer;
+
+  }
+
+  .enviar:hover {
+    background: chocolate;
+    transform: scale(1.2);
+  }
+
+  table {
+    margin: 20px 0 40px;
+    aling: center;
+
+  }
+
+  thead {
+      background: grey;
+      color: white;
+      font-weight: bold;
+
+  }
+
+  td, th {
+    border: 1px  solid grey;
+    padding: 7px;
+  }
