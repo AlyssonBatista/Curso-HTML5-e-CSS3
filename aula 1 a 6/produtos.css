@@ -32,10 +32,9 @@ nav ul {
 }
 .produtos {
     width: 940px;
-    margin: 0 auto ;
-    padding: 50px 0;
+    margin: 50px auto ;
+    padding: 50px 0px;
 }
-
 .produtos li {
     display: inline-block;
     text-align: center;
@@ -81,7 +80,13 @@ footer {
     text-align: center;
     color: white;
     background: url(bg.jpg); 
-    padding: 40px 0;   
+    padding: 40px 0;  
+    margin-top: auto; 
+ }
+
+ #img {
+     width: max-content;
+     weight: max-content;
  }
 
  
