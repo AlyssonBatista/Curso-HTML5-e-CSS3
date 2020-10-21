@@ -158,3 +158,13 @@ footer {
     border: 1px  solid grey;
     padding: 7px;
   }
+
+  
+  .banner { /* =========Css da pagina inicial=========*/
+    width: 100%;
+  }
+
+  .titulo-principal {
+    text-align: center;
+    font-size: 2em;
+  }
