@@ -170,6 +170,8 @@ footer {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    text-shadow: 2px 2px 5px black;
+     
   }
   
   .principal {
@@ -220,10 +222,15 @@ footer {
  }
   .imagens-beneficios{
     width: 60%;
-    padding-left: 50px;
-     
-   }
+    opacity: 1;
+    transition: 400ms;  
+    box-shadow: 10px 10px 20px black;
 
+   }
+.imagens-beneficios:hover{
+    opacity: 80%;
+    
+}
 
   .mapa {
     padding: 3em 0;
@@ -252,3 +259,4 @@ footer {
     background-color: #888888;
 }
 
+     
